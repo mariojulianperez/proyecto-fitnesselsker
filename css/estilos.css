@@ -293,6 +293,8 @@ nav ul li a:hover::after {
     left: 30%;
     translate: 50%;
 }
+
+
 /* Media Querys */
 /* Es importante que las medias esten al final de archivo CSS */
 /* Que las medias hay que tener un orden especifico */
