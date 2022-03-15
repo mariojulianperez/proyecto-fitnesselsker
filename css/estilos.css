@@ -293,7 +293,9 @@ nav ul li a:hover::after {
     left: 30%;
     translate: 50%;
 }
-
+.ol {
+    list-style: none;
+}
 
 /* Media Querys */
 /* Es importante que las medias esten al final de archivo CSS */
