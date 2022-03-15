@@ -113,7 +113,7 @@ ul {
 
 .nav__item {
     margin-left: 2rem;
-    
+
 }
 
 .nav__enlace {
@@ -121,6 +121,12 @@ ul {
     text-decoration: none;
     margin: 1%;
 }
+.nav__enlace--activo:hover{
+    color: black ;
+}
+
+
+
  /* Animaciones */
 nav ul li a::after{
     content:"";
@@ -133,6 +139,7 @@ nav ul li a::after{
     transform: scaleX(0);
     transform-origin: right;
     transition: transform 0.5s;
+    
 }
 nav ul li a:hover::after {
     transform: scaleX(1);
