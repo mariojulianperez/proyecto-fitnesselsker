@@ -255,8 +255,6 @@ nav ul li a:hover::after {
     width: 80%;
     min-height: 500px;
     padding: 1rem;
-
-
 }
 
 .grid2 {
@@ -288,7 +286,7 @@ nav ul li a:hover::after {
     width: auto;
     display: flex;
     justify-content: end;
-    
+
 }
 
 .hero__right {
@@ -302,6 +300,19 @@ nav ul li a:hover::after {
 }
 .ol {
     list-style: none;
+}
+
+.carrusel {
+    margin: 3rem;
+    justify-content: center;
+    display: flex 
+}
+
+.formtext {
+    resize: none;
+    width: 3px;
+    height: 3px;
+
 }
 
 /* Media Querys */
