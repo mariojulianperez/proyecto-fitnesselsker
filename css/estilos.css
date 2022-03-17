@@ -308,13 +308,6 @@ nav ul li a:hover::after {
     display: flex 
 }
 
-.formtext {
-    resize: none;
-    width: 3px;
-    height: 3px;
-
-}
-
 /* Media Querys */
 /* Es importante que las medias esten al final de archivo CSS */
 /* Que las medias hay que tener un orden especifico */
