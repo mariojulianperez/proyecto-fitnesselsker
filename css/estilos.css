@@ -62,7 +62,6 @@
     font-weight: 700;
     text-decoration-line: unset;
     text-decoration-style: solid;
-     
 }
 
 .img {
@@ -317,8 +316,12 @@ nav ul li a:hover::after {
 }
 
 .iconos {
+    color: #000000;
+    font-size: 25px;
 
 }
+
+
 
 /* Media Querys */
 /* Es importante que las medias esten al final de archivo CSS */
@@ -379,6 +382,12 @@ nav ul li a:hover::after {
     }
     
     .hero__right {
+        display: none;
+    }
+    .carrusel {
+        display: none;
+    }
+    .cardscp {
         display: none;
     }
 }
