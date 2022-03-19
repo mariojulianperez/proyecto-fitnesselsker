@@ -320,6 +320,19 @@ nav ul li a:hover::after {
     font-size: 27px;
     
 }
+.cardpf {
+    margin: 0rem;
+    padding: auto;
+    justify-content: right;
+    display: flexbox;
+}
+
+.impf {
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    display: flex;
+}
 
 
 
