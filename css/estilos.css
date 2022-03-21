@@ -232,7 +232,7 @@ nav ul li a:hover::after {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../pictures/posible-new-inicio.png); }
+  background-image: none; }
 
 .hero__left {
   width: auto;
