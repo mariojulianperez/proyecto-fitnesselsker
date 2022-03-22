@@ -132,17 +132,19 @@
   
   .hero {
     padding: 1rem;
-  }
+
+    &__contenedor {
+      max-width: 1200px;
+      margin: 0 auto;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: none
+    }
+}
   
-  .hero__contenedor {
-    max-width: 1200px;
-    margin: 0 auto;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: none
-  }
+  
     
   
   .hero__left {
