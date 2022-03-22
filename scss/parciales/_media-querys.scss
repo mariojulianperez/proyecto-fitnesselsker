@@ -1,0 +1,67 @@
+/* Media Querys */
+  /* Es importante que las medias esten al final de archivo CSS */
+  /* Que las medias hay que tener un orden especifico */
+  /* Aca trabajamos pensando en Desktop First */
+  
+  /* Tablet */
+  @media screen and (max-width: 1024px) {
+    .header {
+        height: auto;
+        flex-direction: column;
+    }
+    .headerwithflex {
+       flex-direction: column; 
+    }
+    .hero__contenedor {
+        flex-direction: column;
+        max-width: auto;
+        margin: auto;
+        min-height: auto;
+    }
+    .hero__left {
+        width: auto;
+    }
+    .hero__right {
+        width: auto;
+    }
+  
+    .footer {
+        flex-direction: column;
+    }
+  
+    .caja {
+        gap: 10px;
+    }
+    .caja2 {
+        overflow: hidden;
+        display:inline-block
+    }
+    .grid1 {
+        overflow: hidden;
+        flex-direction:column;
+        display: block;
+        margin-left:auto;
+    }
+  }
+  
+  /* Movil */
+  @media screen and (max-width: 600px) {
+    .nav__lista {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .imag {
+        display: none;
+    }
+    
+    .hero__right {
+        display: none;
+    }
+    .carrusel {
+        display: none;
+    }
+    .cardscp {
+        display: none;
+    }
+  }

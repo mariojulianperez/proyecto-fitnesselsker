@@ -1,0 +1,72 @@
+.headerwithflex {
+    max-width: 1200px auto;
+    margin: auto;
+    height: 100%;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+    background-color: rgb(251, 255, 0);
+  }
+  
+  .header__marca img {
+    height: 50px;
+    width: 50px;
+    margin: 3%;
+  }
+  .p__logo{
+    color: $miprimervariable;
+    margin: 3%;
+    animation: shakeY; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
+  
+  ul {
+    list-style: none;
+  }
+  .nav__new a:hover {
+    display: flex;
+    position: relative;
+  }
+  .nav__lista {
+    display: flex;
+    
+  }
+  
+  .nav__item {
+    margin-left: 2rem;
+  
+  }
+  
+  .nav__enlace {
+    color: $miprimervariable;
+    text-decoration: none;
+    margin: 1%;
+  }
+  .nav__enlace--activo:hover{
+    color: $miprimervariable ;
+  }
+  
+  
+  
+  /* Animaciones */
+  nav ul li a::after{
+    content:"";
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    height: 3px;
+    background-color: $miprimervariable;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+    
+  }
+  nav ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  
+  }

@@ -1,0 +1,49 @@
+/* Codigo para proyecto con css */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .body {
+    background-color: hsl(0, 0%, 3%);
+    font-family: 'Orbitron', sans-serif;
+    background: rgb(1,0,22);
+    background: -moz-linear-gradient(to bottom, rgba(1,0,22,1) 81%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(to bottom, rgba(1,0,22,1) 81%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(1,0,22,1) 81%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#010016",endColorstr="#ffffff",GradientType=1);
+    
+  }
+  
+  .header {
+    color: white;
+  }
+  
+  .nav {
+    background-color: rgb(251, 255, 0);
+  }
+  
+  .main {
+    color: white;
+  }
+  .p {
+    box-shadow: 5px 10px 10px rgba(188, 195, 204, 0.8);
+    border-radius: 1px;
+    text-align: left;
+    width: 300px; 
+    height: 450px;
+    padding: 1rem; 
+    margin: 0rem; /* Centrar un elemento que tenga ancho definido y sea de bloque */
+    margin-bottom: 5rem;
+    border: 5px dotted rgb(2, 2, 2);
+    /* border-top:solid 5px red;	
+    border-right:solid 10px cyan;
+    border-bottom:solid 7px green;
+    border-left:solid 12px yellow; */
+    
+  
+    overflow: hidden; /* Ocultar algo que se desborde coloco esta propiedad con el valor hidden */
+  }
