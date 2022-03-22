@@ -324,7 +324,6 @@ nav ul li a:hover::after {
   .carrusel {
     display: none; }
   .cardscp {
+    display: none; }
+  .impf {
     display: none; } }
-
-.impf {
-  display: none; }
