@@ -142,21 +142,18 @@
       align-items: center;
       background-image: none
     }
+    &__left {
+      width: auto;
+      display: flex;
+      justify-content: end;
+    }
+
+    &__right {
+      width: 60%;
+    }
+
 }
   
-  
-    
-  
-  .hero__left {
-    width: auto;
-    display: flex;
-    justify-content: end;
-  
-  }
-  
-  .hero__right {
-    width: 60%;
-  }
   .hero__down{
     position: absolute;
     bottom: 0%;
