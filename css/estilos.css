@@ -221,14 +221,12 @@ nav ul li a:hover::after {
     justify-content: center;
     align-items: center;
     background-image: none; }
-
-.hero__left {
-  width: auto;
-  display: flex;
-  justify-content: end; }
-
-.hero__right {
-  width: 60%; }
+  .hero__left {
+    width: auto;
+    display: flex;
+    justify-content: end; }
+  .hero__right {
+    width: 60%; }
 
 .hero__down {
   position: absolute;
@@ -327,3 +325,6 @@ nav ul li a:hover::after {
     display: none; }
   .cardscp {
     display: none; } }
+
+.cardpf {
+  display: none; }
