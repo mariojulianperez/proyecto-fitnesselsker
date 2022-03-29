@@ -2,4 +2,37 @@
 Luego de los puntos le asignamos un valor
 al final reutilizamos la variable donde necesitemos */
 
-$miprimervariable: rgb(0, 0, 0) 
+$miprimervariable: rgb(0, 0, 0);
+
+@mixin flex-row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.boxone {
+    @include flex-row-center;
+}
+
+@mixin sizes ($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+.box {
+  @include sizes(371px, auto)
+}
+
+$estilos: (
+
+    color: rgb(251, 255, 0),
+    centro: center, 
+    tfuente: 13px,
+
+);
+
+footer {
+    background-color: map-get($estilos, color);
+    align-items: map-get($estilos, centro);
+    font-size: map-get($estilos, tfuente);
+}
